@@ -25,8 +25,9 @@
 ### Under consideration
 1. Motherboard: supporting PCI x16/x16/x8
     * $120 - [ASUS X99-A/USB 3.1](https://www.asus.com/us/Motherboards/X99AUSB_31/specifications/) - [CPU/memory support](https://www.asus.com/us/Motherboards/X99AUSB_31/HelpDesk_CPU/)
-    * $380 - [ASUS X99-PRO/USB 3.1](https://www.asus.com/us/Motherboards/X99PROUSB_31/specifications/)
-    * $200 - [ASUS X99-E](https://www.asus.com/us/Motherboards/X99-E/specifications/) - [CPU/memory support](https://www.asus.com/us/Motherboards/X99-E/HelpDesk_CPU/)
+    * $180 - [ASUS X99-E](https://www.asus.com/us/Motherboards/X99-E/specifications/) - [CPU/memory support](https://www.asus.com/us/Motherboards/X99-E/HelpDesk_CPU/)
+    * $350 - [ASUS X99-PRO/USB 3.1](https://www.asus.com/us/Motherboards/X99PROUSB_31/specifications/)
+    * $530 - [ASUS X99-E WS](https://www.asus.com/Motherboards/X99E_WS/specifications/)
 2. CPU: 40 PCI lane requirement
     * $355 - [Intel Xeon E5-1620 V4](https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz)
     * $400 - [Intel Xeon E5-1650 v3](https://ark.intel.com/products/82765/Intel-Xeon-Processor-E5-1650-v3-15M-Cache-3_50-GHz)
@@ -37,10 +38,10 @@
 |Component|Hardware|Qty|PurchaseLink|EffectiveCost|
 |:----------|:---------|:---:|:-------------|--------------:|
 | CPU | [Intel Xeon E5-1620 V4](https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz) | 1 | [here](https://www.ebay.com/itm/173177773498)|$250|
-| Motherboard | | |
+| Motherboard |[ASUS X99-E](https://www.asus.com/us/Motherboards/X99-E/specifications/)|1|[Amazon](https://www.amazon.com/gp/css/summary/edit.html/ref=dp_iou_view_this_order?ie=UTF8&orderID=113-3111965-0066622)|$154|
 | RAM | Corsair 32GB 3GHz (Pack-4 8GB) | 1 | |
 | GPU | [Gigabyte GeForce GTX 1080 G1](http://www.gigabyte.us/Graphics-Card/GV-N1080G1-GAMING-8GD#sp)| 2 | [here](https://www.massdrop.com/buy/gigabyte-geforce-gtx-1080-g1-z370-aorus-ultra)|$1,300|
 | Case | | |
 | Power Supply | | |
-| | | |TOTAL|$1,550| 
+| | | |TOTAL|$1,704| 
 
