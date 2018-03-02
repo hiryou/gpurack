@@ -1,6 +1,8 @@
 ## Hardware knowledge
 
-A concise sample build [here](http://deeplearning20.tumblr.com/post/128232440441/building-a-deep-learning-gpu-machine)
+* A concise sample build [here](http://deeplearning20.tumblr.com/post/128232440441/building-a-deep-learning-gpu-machine)
+* Live build guide [here](https://pcpartpicker.com/list/)
+* My [pcpartpicker](https://pcpartpicker.com/user/hiryou/saved/qRHFdC) 
 
 ### CPU
 * Good to reserve 2 threads/GPU. So with multi-thread CPU nowadays, number of CPU cores should be >= number of GPU
@@ -14,6 +16,7 @@ A concise sample build [here](http://deeplearning20.tumblr.com/post/128232440441
 * Watch out for supported speed of each PCI slot (x16,x8,x4) when running multiple GPUs
 * Some mid to lower end boards, when an SSD M.2 port is occupied, one of the PCI slot speed is reduced.
 * M.2 (M.2 PCIe) socket is the new interface for new SSD. SATA 3.0 = 600MG/s, M.2 = 1GB/s; Can use multiple M.2 socket for multiply up the speed, e.g. 2 M.2 slots = 2GB/s
+* IMPORTANT! Need USB Bios Flashback to easily flash BIOS without CPU
 
 ### RAM
 * non-ECC vs ECC: ECC = error correction code, only important for high availability system. For GPU cluster, non-ECC RAMP is fine.
@@ -31,15 +34,14 @@ A concise sample build [here](http://deeplearning20.tumblr.com/post/128232440441
 ## Hard selection
 ### Under consideration
 1. Motherboard: supporting PCI x16/x16/x8
-    * $120 - [ASUS X99-A/USB 3.1](https://www.asus.com/us/Motherboards/X99AUSB_31/specifications/) - [CPU/memory support](https://www.asus.com/us/Motherboards/X99AUSB_31/HelpDesk_CPU/)
-    * $180 - [ASUS X99-E](https://www.asus.com/us/Motherboards/X99-E/specifications/) - [CPU/memory support](https://www.asus.com/us/Motherboards/X99-E/HelpDesk_CPU/)
+    * $180 - [ASUS X99-A](https://www.asus.com/us/Motherboards/X99A/specifications/)
+    * $314 - [SABERTOOTH X99](https://www.asus.com/us/Motherboards/SABERTOOTH_X99/specifications/)
     * $350 - [ASUS X99-PRO/USB 3.1](https://www.asus.com/us/Motherboards/X99PROUSB_31/specifications/)
-    * $530 - [ASUS X99-E WS](https://www.asus.com/Motherboards/X99E_WS/specifications/)
 2. CPU: 40 PCI lane requirement
     * $355 - [Intel Xeon E5-1620 V4](https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz)
-    * $400 - [Intel Xeon E5-1650 v3](https://ark.intel.com/products/82765/Intel-Xeon-Processor-E5-1650-v3-15M-Cache-3_50-GHz)
+    * $440 - [Intel Core i7-6850K](https://ark.intel.com/products/94188/Intel-Core-i7-6850K-Processor-15M-Cache-up-to-3_80-GHz)
 3. RAM
-    * $355 - [Corsair 32GB 2.4GHz](https://www.amazon.com/dp/B016BWEQYG)
+    * $417 - [Corsair 32GB 2.4GHz CL14](https://pcpartpicker.com/product/RVnG3C/corsair-memory-cmk32gx4m4a2400c14)
 4. Power Supply
     * $199 - [Corsair CP-9020139-NA HX1000 1000W](https://www.amazon.com/dp/B01N5NWKHH)
     * $209 - [Seasonic PRIME Ultra 1000W](https://www.amazon.com/dp/B075M3B1R7)
@@ -47,7 +49,7 @@ A concise sample build [here](http://deeplearning20.tumblr.com/post/128232440441
     * $110 - Corsair H100i v2 [Amazon](https://www.amazon.com/dp/B019EXSSBG) or [BestBuy](https://www.bestbuy.com/site/corsair-hydro-series-240mm-liquid-cpu-cooler-black-gray/7313029.p?skuId=7313029)
     * $120 - Corsair H110i [Amazon](https://www.amazon.com/dp/B019955W7C) or [BestBuy](https://www.bestbuy.com/site/corsair-hydro-series-h110i-dual-140mm-liquid-cooling-system/5507140.p?skuId=5507140)
 6. Case
-    * $150 - [Corsair Carbide Series Air 540](https://www.amazon.com/dp/B00H8JLM94)
+    * $140 - [Corsair Carbide Series Air 540](https://www.amazon.com/dp/B00H8JLM94)
 ### Power Supply Planning
 * 2x Geforce 1080 G1 consumes max 2x [300 W](https://us.hardware.info/reviews/6883/14/gigabyte-geforce-gtx-1080-g1-gaming-review-power-consumption) = 600 W
 * CPU Xeon E5-1620 consumes max [140 W](https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz)
@@ -55,14 +57,15 @@ A concise sample build [here](http://deeplearning20.tumblr.com/post/128232440441
 * TOTAL: 940 W   
 
 ### Purchase List
-|Component|Hardware|Qty|PurchaseLink|EffectiveCost|
+|Component|Hardware|Qty|PurchaseLink|TotalCost+Tax|
 |:----------|:---------|:---:|:-------------|--------------:|
-| Motherboard |[ASUS X99-E](https://www.asus.com/us/Motherboards/X99-E/specifications/)|1|[Amazon](https://www.amazon.com/gp/css/summary/edit.html/ref=dp_iou_view_this_order?ie=UTF8&orderID=113-3111965-0066622)|$154|
+| Motherboard |[ASUS X99-A](https://www.asus.com/us/Motherboards/X99A/)|1|[eBay](https://www.ebay.com/itm/391894533651), [Amazon](https://www.amazon.com/gp/product/B01FM8HRXM)|$149|
 | CPU | [Intel Xeon E5-1620 V4](https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz) | 1 | [eBay](https://www.ebay.com/itm/173177773498)|$250|
+| SSD |(pulled from laptop)| | |$0|
 | CPU Cooling| | |[BestBuy GiftCard]()|$0|
-| RAM | Corsair 32GB 2.4GHz (Pack-2 16GB)|1| |$380|
-| GPU | [Gigabyte GeForce GTX 1080 G1](http://www.gigabyte.us/Graphics-Card/GV-N1080G1-GAMING-8GD#sp)| 2 | [here](https://www.massdrop.com/buy/gigabyte-geforce-gtx-1080-g1-z370-aorus-ultra)|$1,300|
+| RAM |[Corsair 32GB 2.4GHz CL14 (pack-4)](https://pcpartpicker.com/product/RVnG3C/corsair-memory-cmk32gx4m4a2400c14)|1| |$310|
+| GPU | [Gigabyte GeForce GTX 1080 G1](http://www.gigabyte.us/Graphics-Card/GV-N1080G1-GAMING-8GD#sp)| 2 | [Massdrop](https://www.massdrop.com/buy/gigabyte-geforce-gtx-1080-g1-z370-aorus-ultra)|$1,300|
 | Case | | | |$150|
 | Power Supply | | | |$220|
-| | | |**TOTAL**|**$2,454**| 
+| | | |**TOTAL**|**$2,379**| 
 
