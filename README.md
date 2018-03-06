@@ -42,6 +42,7 @@
     * $440 - [Intel Core i7-6850K](https://ark.intel.com/products/94188/Intel-Core-i7-6850K-Processor-15M-Cache-up-to-3_80-GHz)
 3. RAM
     * $417 - [Corsair 32GB 2.4GHz CL14](https://pcpartpicker.com/product/RVnG3C/corsair-memory-cmk32gx4m4a2400c14)
+    * $428 - [G.Skill 32GB 2.4Ghz CL15](https://www.gskill.com/en/product/f4-2400c15q-32grr)
 4. Power Supply
     * $199 - [Corsair CP-9020139-NA HX1000 1000W](https://www.amazon.com/dp/B01N5NWKHH)
     * $209 - [Seasonic PRIME Ultra 1000W](https://www.amazon.com/dp/B075M3B1R7)
@@ -59,13 +60,13 @@
 ### Purchase List
 |Component|Hardware|Qty|PurchaseLink|TotalCost+Tax|
 |:----------|:---------|:---:|:-------------|--------------:|
-| Motherboard |[ASUS X99-A](https://www.asus.com/us/Motherboards/X99A/)|1|[eBay](https://www.ebay.com/itm/391894533651), [Amazon](https://www.amazon.com/gp/product/B01FM8HRXM)|$149|
-| CPU | [Intel Xeon E5-1620 V4](https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz) | 1 | [eBay](https://www.ebay.com/itm/173177773498)|$250|
-| SSD |(pulled from laptop)| | |$0|
-| CPU Cooling| | |[BestBuy GiftCard]()|$0|
-| RAM |[Corsair 32GB 2.4GHz CL14 (pack-4)](https://pcpartpicker.com/product/RVnG3C/corsair-memory-cmk32gx4m4a2400c14)|1| |$310|
-| GPU | [Gigabyte GeForce GTX 1080 G1](http://www.gigabyte.us/Graphics-Card/GV-N1080G1-GAMING-8GD#sp)| 2 | [Massdrop](https://www.massdrop.com/buy/gigabyte-geforce-gtx-1080-g1-z370-aorus-ultra)|$1,300|
-| Case | | | |$150|
-| Power Supply | | | |$220|
-| | | |**TOTAL**|**$2,379**| 
+|Motherboard |[ASUS X99-A](https://www.asus.com/us/Motherboards/X99A/)|1|[eBay](https://www.ebay.com/itm/391894533651), [Amazon](https://www.amazon.com/gp/product/B01FM8HRXM)|$149|
+|CPU|[Intel Xeon E5-1620 V4](https://ark.intel.com/products/92991/Intel-Xeon-Processor-E5-1620-v4-10M-Cache-3_50-GHz) | 1 | [eBay](https://www.ebay.com/itm/173177773498)|$250|
+|SSD|[Samsung 860 EVO 500GB](https://www.amazon.com/dp/B0781Z7Y3S)| |BestBuy|$148|
+|CPU Cooling|Corsair H110i|1|[BestBuy Rewards](https://www.bestbuy.com/site/corsair-hydro-series-h110i-dual-140mm-liquid-cooling-system/5507140.p?skuId=5507140)|$0|
+|RAM|[G.SKILL RIPJAWS 4 32GB (4 x 8GB) 2.4 GHz](https://www.gskill.com/en/product/f4-2400c15q-32grr)|1|[eBay](https://www.ebay.com/itm/123005724792)|$305|
+|GPU|[Gigabyte GeForce GTX 1080 G1](http://www.gigabyte.us/Graphics-Card/GV-N1080G1-GAMING-8GD#sp)| 2 | [Massdrop](https://www.massdrop.com/buy/gigabyte-geforce-gtx-1080-g1-z370-aorus-ultra)|$1,300|
+|Case|[Corsair Carbide Series Air 540](https://www.amazon.com/dp/B00H8JLM94)|1|[eBay](https://www.ebay.com/itm/132527524513)|$130|
+|Power Supply|[Corsair HX1000i](https://www.amazon.com/dp/B00M2UINT6)|1|[eBay](https://www.ebay.com/itm/263534331905)|$170| 
+| | | |**TOTAL**|**$2,452**| 
 
